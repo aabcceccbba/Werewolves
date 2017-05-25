@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D5594151ED2A1AB0061B36E /* PlayerNumberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5594141ED2A1AB0061B36E /* PlayerNumberViewController.m */; };
 		0D7C4A8A1ED028FB002E396F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7C4A891ED028FB002E396F /* main.m */; };
 		0D7C4A8D1ED028FB002E396F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7C4A8C1ED028FB002E396F /* AppDelegate.m */; };
 		0D7C4A901ED028FB002E396F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7C4A8F1ED028FB002E396F /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D5594131ED2A1AB0061B36E /* PlayerNumberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerNumberViewController.h; sourceTree = "<group>"; };
+		0D5594141ED2A1AB0061B36E /* PlayerNumberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerNumberViewController.m; sourceTree = "<group>"; };
 		0D7C4A851ED028FB002E396F /* Werewolves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Werewolves.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D7C4A891ED028FB002E396F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0D7C4A8B1ED028FB002E396F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -106,6 +109,8 @@
 				0D7C4A8E1ED028FB002E396F /* ViewController.h */,
 				0D7C4A8F1ED028FB002E396F /* ViewController.m */,
 				0D7C4A911ED028FB002E396F /* Main.storyboard */,
+				0D5594131ED2A1AB0061B36E /* PlayerNumberViewController.h */,
+				0D5594141ED2A1AB0061B36E /* PlayerNumberViewController.m */,
 				0D7C4A941ED028FB002E396F /* Assets.xcassets */,
 				0D7C4A961ED028FB002E396F /* LaunchScreen.storyboard */,
 				0D7C4A991ED028FB002E396F /* Info.plist */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D5594151ED2A1AB0061B36E /* PlayerNumberViewController.m in Sources */,
 				0D7C4A901ED028FB002E396F /* ViewController.m in Sources */,
 				0D7C4A8D1ED028FB002E396F /* AppDelegate.m in Sources */,
 				0D7C4A8A1ED028FB002E396F /* main.m in Sources */,
@@ -507,6 +513,7 @@
 				0D7C4AB41ED028FB002E396F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D7C4AB51ED028FB002E396F /* Build configuration list for PBXNativeTarget "WerewolvesTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +522,7 @@
 				0D7C4AB71ED028FB002E396F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D7C4AB81ED028FB002E396F /* Build configuration list for PBXNativeTarget "WerewolvesUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +531,7 @@
 				0D7C4ABA1ED028FB002E396F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
