@@ -11,6 +11,8 @@
 @interface PlayerNumberViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UITextField *tf;
 @property (strong, nonatomic) IBOutlet UIButton *ok;
+@property (strong, nonatomic) NSNumber *num;
+
 - (IBAction)ok:(id)sender;
 //- (IBAction)backgroudTap:(id)sender;
 

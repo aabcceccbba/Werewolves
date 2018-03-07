@@ -16,6 +16,7 @@
 		0D7C4A981ED028FB002E396F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D7C4A961ED028FB002E396F /* LaunchScreen.storyboard */; };
 		0D7C4AA31ED028FB002E396F /* WerewolvesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7C4AA21ED028FB002E396F /* WerewolvesTests.m */; };
 		0D7C4AAE1ED028FB002E396F /* WerewolvesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7C4AAD1ED028FB002E396F /* WerewolvesUITests.m */; };
+		0D8E8F641FA436AA00494DA3 /* RoleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8E8F631FA436AA00494DA3 /* RoleController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		0D7C4AA91ED028FB002E396F /* WerewolvesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WerewolvesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D7C4AAD1ED028FB002E396F /* WerewolvesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WerewolvesUITests.m; sourceTree = "<group>"; };
 		0D7C4AAF1ED028FB002E396F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D8E8F621FA436AA00494DA3 /* RoleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoleController.h; sourceTree = "<group>"; };
+		0D8E8F631FA436AA00494DA3 /* RoleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoleController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,9 +111,11 @@
 				0D7C4A8C1ED028FB002E396F /* AppDelegate.m */,
 				0D7C4A8E1ED028FB002E396F /* ViewController.h */,
 				0D7C4A8F1ED028FB002E396F /* ViewController.m */,
-				0D7C4A911ED028FB002E396F /* Main.storyboard */,
 				0D5594131ED2A1AB0061B36E /* PlayerNumberViewController.h */,
 				0D5594141ED2A1AB0061B36E /* PlayerNumberViewController.m */,
+				0D8E8F621FA436AA00494DA3 /* RoleController.h */,
+				0D8E8F631FA436AA00494DA3 /* RoleController.m */,
+				0D7C4A911ED028FB002E396F /* Main.storyboard */,
 				0D7C4A941ED028FB002E396F /* Assets.xcassets */,
 				0D7C4A961ED028FB002E396F /* LaunchScreen.storyboard */,
 				0D7C4A991ED028FB002E396F /* Info.plist */,
@@ -280,6 +285,7 @@
 			files = (
 				0D5594151ED2A1AB0061B36E /* PlayerNumberViewController.m in Sources */,
 				0D7C4A901ED028FB002E396F /* ViewController.m in Sources */,
+				0D8E8F641FA436AA00494DA3 /* RoleController.m in Sources */,
 				0D7C4A8D1ED028FB002E396F /* AppDelegate.m in Sources */,
 				0D7C4A8A1ED028FB002E396F /* main.m in Sources */,
 			);
